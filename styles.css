@@ -18,7 +18,7 @@ body {
     padding-bottom: 3rem;
 }
 
-.container {
+.container.header {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,7 +33,8 @@ body {
 
 .profile-stats {
     display: flex;
-    flex-direction: row ;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
@@ -48,6 +49,8 @@ body {
 }
 
 .gallery-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 
 }
 
