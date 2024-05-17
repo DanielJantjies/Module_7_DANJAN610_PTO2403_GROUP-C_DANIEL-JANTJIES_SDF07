@@ -4,9 +4,9 @@
     font-size: 10px;
 }
 
-*,
-*::before,
-*::after {
+
+**::before,
+**::after {
     box-sizing: border-box;
 }
 
@@ -18,6 +18,48 @@ body {
     padding-bottom: 3rem;
 }
 
-img {
-    display: block;
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 33%;
 }
+
+.profile-user-settings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile-stats {
+    display: flex;
+    flex-direction: row ;
+
+}
+
+.container .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 66%;
+}
+
+.image {
+    object-fit: cover;
+}
+
+.gallery-item {
+
+}
+
+.gallery-item-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+
+
+
+
+
